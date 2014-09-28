@@ -7,13 +7,13 @@ baseado neste projeto do GITHUB [https://github.com/nicolashery/mac-dev-setup](h
 
 ### Premissas
 
-1. Sistema Maverics ou superior
-2. Java 8
-3. Tomcat 8
-4. Maven 3
-5. PlantUML e gRaphviz
-6. MySQL
-7. git 2 ou superior
+Sistema Maverics ou superior
+Java 8
+Tomcat 8
+Maven 3
+PlantUML e gRaphviz
+MySQL
+git 2 ou superior
 
 
     top -o cpu -i 30 -s 7 -n 10 
