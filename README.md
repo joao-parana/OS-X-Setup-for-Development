@@ -20,11 +20,6 @@ baseado neste projeto do GITHUB [https://github.com/nicolashery/mac-dev-setup](h
     top -o cpu -i 30 -s 7 -n 10 
     ruby --version 
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
-    git config --global user.email "you@example.com"
-    git config --global user.name "Your Name"
-    git config --global user.email "joao.parana@gmail.com"
-    git config --global user.name "Joao Ferreira"
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
     brew doctor 
     brew update 
     brew outdated
@@ -63,8 +58,10 @@ baseado neste projeto do GITHUB [https://github.com/nicolashery/mac-dev-setup](h
     cd gitconfig
     curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/.gitconfig 
     # let's enable Git password caching
-    git config --global user.name "Your Name Here"
-    git config --global user.email "your_email@youremail.com"
+    git config --global user.email "you@example.com"
+    git config --global user.name "Your Name"
+    git config --global user.email "joao.parana@gmail.com"
+    git config --global user.name "Joao Ferreira"
     # They will get added to your .gitconfig file.
     # To push code to your GitHub repositories, we're going to use the recommended HTTPS 
     # method (versus SSH). So you don't have to type your username and password everytime, let's
@@ -74,4 +71,5 @@ baseado neste projeto do GITHUB [https://github.com/nicolashery/mac-dev-setup](h
     # system file that's put in folders) to your .gitignore file
 
 
-Para instalar o apcote de suporte a linguagem Swift da Apple use este link: [https://sublime.wbond.net/packages/Swift](https://sublime.wbond.net/packages/Swift) 
+Para instalar o pacote de suporte a linguagem Swift da Apple use este link: [https://sublime.wbond.net/packages/Swift](https://sublime.wbond.net/packages/Swift) 
+
