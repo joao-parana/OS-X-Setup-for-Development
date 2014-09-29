@@ -11,9 +11,10 @@ baseado neste projeto do GITHUB [https://github.com/nicolashery/mac-dev-setup](h
 #### Java 8
 #### Tomcat 8
 #### Maven 3
-#### PlantUML e gRaphviz
+#### PlantUML e Graphviz
 #### MySQL
 #### git 2 ou superior
+#### Sublime 3
 
 
     top -o cpu -i 30 -s 7 -n 10 
@@ -62,3 +63,15 @@ baseado neste projeto do GITHUB [https://github.com/nicolashery/mac-dev-setup](h
     cd gitconfig
     curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/.gitconfig 
     # let's enable Git password caching
+    git config --global user.name "Your Name Here"
+    git config --global user.email "your_email@youremail.com"
+    # They will get added to your .gitconfig file.
+    # To push code to your GitHub repositories, we're going to use the recommended HTTPS 
+    # method (versus SSH). So you don't have to type your username and password everytime, let's
+    # enable Git password caching as described here:
+    git config --global credential.helper osxkeychain
+    # Note: On a Mac, it is important to remember to add .DS_Store (a hidden OS X 
+    # system file that's put in folders) to your .gitignore file
+
+
+Para instalar o apcote de suporte a linguagem Swift da Apple use este link: [https://sublime.wbond.net/packages/Swift](https://sublime.wbond.net/packages/Swift) 
