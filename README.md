@@ -73,3 +73,16 @@ baseado neste projeto do GITHUB [https://github.com/nicolashery/mac-dev-setup](h
 
 Para instalar o pacote de suporte a linguagem Swift da Apple use este link: [https://sublime.wbond.net/packages/Swift](https://sublime.wbond.net/packages/Swift) 
 
+Após ter baixado os arquivos `.bash_profile`, `.bash_prompt` e `.aliases`  copie para o diretório HOME
+
+Também adicione ao final do arquivo `~/.aliases` as linhas abaixo
+
+    alias gitrm='git rm -r --cached Exemplo001.xcodeproj/project.xcworkspace/xcuserdata'
+    alias gph='git push -u origin master '
+    alias gpl='git pull origin master '
+    alias gpf='git add -A . ; git commit -m "Adicionando Funcionalidades" ; git push -u origin master '
+    alias gpe='git add -A . ; git commit -m "Corrigindo erros" ; git push -u origin master '
+    alias git-override-and-update='git fetch --all ; git reset --hard origin/master' 
+    
+
+
