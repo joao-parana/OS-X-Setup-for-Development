@@ -3,7 +3,8 @@ OS-X-Setup-for-Development
 
 MAC OS X (Mavericks ou superior) Setup for Development
 
-baseado neste projeto do GITHUB [https://github.com/nicolashery/mac-dev-setup](https://github.com/nicolashery/mac-dev-setup)
+Baseado neste projeto do GITHUB [https://github.com/nicolashery/mac-dev-setup](https://github.com/nicolashery/mac-dev-setup)
+Ver também este outro Fork : [https://github.com/jfrazelle/mac-dev-setup](https://github.com/jfrazelle/mac-dev-setup)
 
 ### Premissas
 
